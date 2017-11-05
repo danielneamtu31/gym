@@ -1,1 +1,3 @@
+com\gym\model\User.class
 com\gym\controllers\FirstController.class
+com\gym\repository\UserRepository.class
