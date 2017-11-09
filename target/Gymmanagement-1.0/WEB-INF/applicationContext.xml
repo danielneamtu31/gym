@@ -19,7 +19,10 @@
         </property>
     </bean>
 
-    <bean id="userRepositoty" class="com.gym.repository.UserRepository"/>
+    <bean id="userRepositoty" class="com.gym.repository.UserRepository">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
 
 
     <bean id="dataSource"
